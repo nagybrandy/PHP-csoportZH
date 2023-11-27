@@ -44,7 +44,7 @@
         
         <input type="submit" value="Küldés">
     </form>
-    <div id=results>
+    <div id="results">
         <!-- Ez jelenjen meg, ha valid -->
         <h2>Sikeres hozzáadás! 😍</h2>
         <a href='index.php'>Vissza a főoldalra</a>
