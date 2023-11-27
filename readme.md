@@ -34,7 +34,7 @@ A feladat legegyszerűbb megoldásához csak és kizárólag PHP-t kell használ
 ### <span style="color:green">index.php</span>
 |Sorszám|Feladat|Pontok|
 |----|----|----|
-| 1. | A táblázat alapja készen van, jelenítsd meg az adatokat dinamikusan a jsonből kiolvasva, majd töröld ki a placeholdereket. | <span style="color:red"> 2 pont </span>|
+| 1. | A táblázat alapja készen van, jelenítsd meg az adatokat dinamikusan a jsonből kiolvasva, majd töröld ki a placeholdereket. A származási ország képét jelenítsd meg a megfelelő oszlopban, ezeket az img mappában találod.  | <span style="color:red"> 2 pont </span>|
 | 2. | A sajt soraihoz add hozzá az ".old" classt, ha a sajt 24 hónapnál idősebb! |<span style="color:red"> 1 pont </span>|
 
 ### <span style="color:green">addcheese.php</span>
@@ -43,9 +43,9 @@ A feladat legegyszerűbb megoldásához csak és kizárólag PHP-t kell használ
 | 1.| Nézd meg, hogy a formban szereplő inputok attribútumait, mert ezzel fogod tudni megkapni a requesttel az isvalid.php-ban a beírt adatokat.  ||
 | 2. | Látod a lehetséges hibaüzeneteket, ezeknek a szövegeit használhatod. A hibaüzenetek alatt segítségképp linkeket találsz, amik a validálásban segítenek. ||
 | |  a, A nevet csak akkor fogadja el, ha létezik, és legalább 4 karakter hosszú a két szélén lévő szóközök nélkül! | <span style="color:red"> 1 pont </span>|
-|  | b, A típust az alábbi reguláris kifejezés segítségével validáld: `^[a-zA-Z\s]*$` |<span style="color:red"> 1 pont </span>|
+|  | b, A típust az alábbi reguláris kifejezés segítségével validáld:`/^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]+/` |<span style="color:red"> 1 pont </span>|
 |  | c, A hónapot a filter_var függvény segítségével validált egész számra! |<span style="color:red"> 1 pont </span>||
 | 3. | Az 'origin' kulcshoz rendeld hozzá az új elemednél a származási országot, majd az új adatokat fűzd hozzá az cheese_stock.jsonhöz! | <span style="color:red"> 2 pont </span>|
 | 4. | Attól függően, hogy van-e hiba a validálásban, az oldalon megfelelő részeket jelenítsd meg! |<span style="color:red"> 1 pont </span>|
-| 5. | Tedd az űrlapot állapottartová! |<span style="color:red"> 1 pont </span>|
+| 5. | A dropdown mező kivételével tedd az űrlapot állapottartová! |<span style="color:red"> 1 pont </span>|
 

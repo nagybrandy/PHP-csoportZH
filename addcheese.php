@@ -59,10 +59,10 @@
     </div>
 
     <ul id="help">
-            <li><a href="addcheese.php?addcheese.php?name=&origin=gr&type=&age_m=">❌cheesename ❌cheesetype ❌cheeseage</a></li>
-            <li><a href="addcheese.php?addcheese.php?name=Feta&origin=gr&type=&age_m=">✅cheesename ❌cheesetype ❌cheeseage</a></li>
-            <li><a href="addcheese.php?addcheese.php?name=Feta&origin=gr&type=fehér&age_m=">✅cheesename ✅cheesetype ❌cheeseage</a></li>
-            <li><a href="addcheese.php?addcheese.php?name=Feta&origin=gr&type=fehér&age_m=3">✅cheesename ✅cheesetype ✅cheeseage</a></li>
+            <li><a href="addcheese.php?name=&origin=gr&type=&age_m=">❌cheesename ❌cheesetype ❌cheeseage</a></li>
+            <li><a href="addcheese.php?name=Feta&origin=gr&type=&age_m=">✅cheesename ❌cheesetype ❌cheeseage</a></li>
+            <li><a href="addcheese.php?name=Feta&origin=gr&type=fehér&age_m=">✅cheesename ✅cheesetype ❌cheeseage</a></li>
+            <li><a href="addcheese.php?name=Feta&origin=gr&type=fehér&age_m=3">✅cheesename ✅cheesetype ✅cheeseage</a></li>
     </ul>
 </body>
 </html>
